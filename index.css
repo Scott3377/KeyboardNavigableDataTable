@@ -1,0 +1,53 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 14px;
+}
+
+#container {
+	margin: 0 auto;
+	width: 960px;
+}
+
+thead tr {
+	//background-color: rgb(213,229,230);
+	background-color: #9CDCF7;
+	text-align: left;
+}
+
+th {
+	text-align: left;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+td {
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+tbody tr {
+	background-color: #FFF;
+}
+
+
+tr.selected-row {
+	background-color: rgb(222,222,222) !important;	/* !important required to override row-odd styling */
+}
+
+#usersTable {
+	border: 2px solid #cdf;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-collapse: collapse;
+	border-spacing: 0;
+	min-width: 800px;
+}
+
+tr.row-odd {
+	background-color: rgb(245,245,255);
+	border-bottom: 1px solid #EEE;
+}
